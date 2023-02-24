@@ -1,0 +1,80 @@
+CRITICAL - 2023-02-16 03:48:39 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\webci4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\webci4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\webci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\webci4\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+ERROR - 2023-02-16 16:24:17 --> Error connecting to the database: ProxySQL Error: Access denied for user '****'@'2a02:4780:bad:f00d::10' (using password: NO)
+CRITICAL - 2023-02-16 16:24:17 --> Unable to connect to the database.
+Main connection [MySQLi]: ProxySQL Error: Access denied for user '****'@'2a02:4780:bad:f00d::10' (using password: NO)
+#0 /storage/ssd5/104/20313104/public_html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /storage/ssd5/104/20313104/public_html/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#2 /storage/ssd5/104/20313104/public_html/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 /storage/ssd5/104/20313104/public_html/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 /storage/ssd5/104/20313104/public_html/app/Models/Konfigurasi_model.php(17): CodeIgniter\BaseModel->first()
+#5 /storage/ssd5/104/20313104/public_html/app/Controllers/Home.php(19): App\Models\Konfigurasi_model->listing()
+#6 /storage/ssd5/104/20313104/public_html/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#7 /storage/ssd5/104/20313104/public_html/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#8 /storage/ssd5/104/20313104/public_html/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#9 /storage/ssd5/104/20313104/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-02-16 16:26:00 --> Error connecting to the database: ProxySQL Error: Access denied for user '****'@'2a02:4780:bad:f00d::10' (using password: NO)
+CRITICAL - 2023-02-16 16:26:00 --> Unable to connect to the database.
+Main connection [MySQLi]: ProxySQL Error: Access denied for user '****'@'2a02:4780:bad:f00d::10' (using password: NO)
+#0 /storage/ssd5/104/20313104/public_html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /storage/ssd5/104/20313104/public_html/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#2 /storage/ssd5/104/20313104/public_html/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 /storage/ssd5/104/20313104/public_html/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 /storage/ssd5/104/20313104/public_html/app/Models/Konfigurasi_model.php(17): CodeIgniter\BaseModel->first()
+#5 /storage/ssd5/104/20313104/public_html/app/Controllers/Home.php(19): App\Models\Konfigurasi_model->listing()
+#6 /storage/ssd5/104/20313104/public_html/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#7 /storage/ssd5/104/20313104/public_html/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#8 /storage/ssd5/104/20313104/public_html/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#9 /storage/ssd5/104/20313104/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-02-16 16:27:17 --> Error connecting to the database: ProxySQL Error: Access denied for user '****'@'2a02:4780:bad:f00d::10' (using password: NO)
+CRITICAL - 2023-02-16 16:27:17 --> Unable to connect to the database.
+Main connection [MySQLi]: ProxySQL Error: Access denied for user '****'@'2a02:4780:bad:f00d::10' (using password: NO)
+#0 /storage/ssd5/104/20313104/public_html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /storage/ssd5/104/20313104/public_html/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#2 /storage/ssd5/104/20313104/public_html/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 /storage/ssd5/104/20313104/public_html/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 /storage/ssd5/104/20313104/public_html/app/Models/Konfigurasi_model.php(17): CodeIgniter\BaseModel->first()
+#5 /storage/ssd5/104/20313104/public_html/app/Controllers/Home.php(19): App\Models\Konfigurasi_model->listing()
+#6 /storage/ssd5/104/20313104/public_html/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#7 /storage/ssd5/104/20313104/public_html/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#8 /storage/ssd5/104/20313104/public_html/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#9 /storage/ssd5/104/20313104/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-02-16 16:57:01 --> Trying to access array offset on value of type int
+#0 /storage/ssd5/104/20313104/public_html/app/Controllers/Admin/Staff.php(87): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /storage/ssd5/104/20313104/public_html/system/CodeIgniter.php(824): App\Controllers\Admin\Staff->index()
+#2 /storage/ssd5/104/20313104/public_html/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /storage/ssd5/104/20313104/public_html/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /storage/ssd5/104/20313104/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-16 17:12:52 --> Trying to access array offset on value of type int
+#0 /storage/ssd5/104/20313104/public_html/app/Controllers/Admin/Staff.php(87): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /storage/ssd5/104/20313104/public_html/system/CodeIgniter.php(824): App\Controllers\Admin\Staff->index()
+#2 /storage/ssd5/104/20313104/public_html/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /storage/ssd5/104/20313104/public_html/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /storage/ssd5/104/20313104/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-02-16 23:33:27 --> Unknown column 'staff.urutan' in 'order clause'
+CRITICAL - 2023-02-16 23:33:27 --> Call to a member function getResultArray() on bool
+#0 /storage/ssd5/104/20313104/public_html/app/Views/staff/index.php(33): App\Models\Staff_model->kategori_staff()
+#1 /storage/ssd5/104/20313104/public_html/system/View/View.php(214): include('/storage/ssd5/1...')
+#2 /storage/ssd5/104/20313104/public_html/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /storage/ssd5/104/20313104/public_html/system/Common.php(1097): CodeIgniter\View\View->render()
+#4 /storage/ssd5/104/20313104/public_html/app/Views/layout/content.php(4): view()
+#5 /storage/ssd5/104/20313104/public_html/app/Views/layout/wrapper.php(6): require_once('/storage/ssd5/1...')
+#6 /storage/ssd5/104/20313104/public_html/system/View/View.php(214): include('/storage/ssd5/1...')
+#7 /storage/ssd5/104/20313104/public_html/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 /storage/ssd5/104/20313104/public_html/system/Common.php(1097): CodeIgniter\View\View->render()
+#9 /storage/ssd5/104/20313104/public_html/app/Controllers/Staff.php(28): view()
+#10 /storage/ssd5/104/20313104/public_html/system/CodeIgniter.php(824): App\Controllers\Staff->index()
+#11 /storage/ssd5/104/20313104/public_html/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#12 /storage/ssd5/104/20313104/public_html/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#13 /storage/ssd5/104/20313104/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2023-02-16 23:36:43 --> Unknown column 'urutan' in 'field list'

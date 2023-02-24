@@ -1,0 +1,29 @@
+///::::::::::::::::::::::::::::::::::::::::::::::::///
+   :::: mfadproj-wa_consult-wa.me/6285770974797::::
+///::::::::::::::::::::::::::::::::::::::::::::::::///
+
+PANDUAN UNTUK OFFLINE (XAMPP)
+
+BAHAN
+1. extract file mfadproj-cust-webci4
+2. Pindahkan folder mfadproj-cust-webci4 ke folder htdocs di xampp
+3. rename folder mfadproj-cust-webci4 menjadi webci4
+
+DATABASE
+1. buat database dengan nama yang kamu inginkan (utf8_general_ci)
+2. import databases.sql ke database yang kamu buat
+
+SETTING DATABASE
+1. buka file database.php di app/config 
+2. edit settingan sesuaikan dengan konfigurasi database
+
+SETTING ENV.TXT
+1. buka file env.txt 
+2. sesuaikan settingan database dengan settingan di config tadi
+
+DONE
+seharusnya website sudah bisa terbuka/akses
+
+UPDATES 7.4.1
+#Memperbaiki fitur tambah di admin/staff
+#Memperbaiki fitur tampilan di view/staff
